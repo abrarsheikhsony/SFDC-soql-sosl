@@ -33,3 +33,7 @@ for(Schema.FieldSetMember f : SObjectType.Account.FieldSets.AccountSearchFieldSe
 soql += 'Id FROM Account WHERE AccountNumber = :accountNumber AND (Date__c >= :startDate AND Date__c <= :endDate)';
 ```
 
+(3) Get the Queue record
+```
+Group groupRecord = [SELECT Id, Name FROM Group WHERE Type = 'Queue' AND Name = : queueName LIMIT 1];
+```
