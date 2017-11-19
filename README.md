@@ -7,7 +7,7 @@ Here you will find best practices and tips & tricks of Salesforce SOQL and SOSL 
 (B) SOSL = Salesforce Object Search Language
 ```
 
-(A) SOQL
+### (A) SOQL
 
 (1) String literals in Dynamic query 
 
